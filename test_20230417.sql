@@ -1,2 +1,2 @@
 -- Databricks notebook source
-select 2 as test2
+select 2 as test3
