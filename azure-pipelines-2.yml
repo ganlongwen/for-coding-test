@@ -14,8 +14,8 @@ jobs:
   displayName: Deploy to VM
   environment: 
    name: DEV_VM
-   resourceName: DLC00PF409E63L
-   resourceType: virtualMachine
+   resourceName: DLC00PF409E63L,LAPTOP-DHIS8JII
+   resourceType: virtualMachine,virtualMachine
   strategy:
      runOnce:
         deploy:   
