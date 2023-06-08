@@ -14,7 +14,7 @@ jobs:
   displayName: Deploy to VM
   environment: 
    name: DEV_VM
-   resourceGroup: ForGroupTest
+   # resourceName: ForGroupTest
    resourceType: virtualMachine
   strategy:
      runOnce:
