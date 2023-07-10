@@ -13,20 +13,20 @@ pool:
 # Azure Databricks cluster. This pipeline assumes that you are using
 # Databricks Runtime 10.4 LTS on the cluster.
 steps:
-- task: UsePythonVersion@0
-  displayName: 'Use Python 3.8'
-  inputs:
-    versionSpec: 3.8
+# - task: UsePythonVersion@0
+#   displayName: 'Use Python 3.8'
+#   inputs:
+#     versionSpec: 3.8
 
-# Install required Python modules and their dependencies. These
-# include pytest, which is needed to run unit tests on a cluster,
-# and setuptools, which is needed to create a Python wheel. Also
-# install the version of Databricks Connect that is compatible
-# with Databricks Runtime 10.4 LTS on the cluster.
-- script: |
-    pip install pytest requests setuptools wheel
-    pip install -U databricks-connect==10.4.*
-  displayName: 'Load Python dependencies'
+# # Install required Python modules and their dependencies. These
+# # include pytest, which is needed to run unit tests on a cluster,
+# # and setuptools, which is needed to create a Python wheel. Also
+# # install the version of Databricks Connect that is compatible
+# # with Databricks Runtime 10.4 LTS on the cluster.
+# - script: |
+#     pip install pytest requests setuptools wheel
+#     pip install -U databricks-connect==10.4.*
+#   displayName: 'Load Python dependencies'
 
 # Use environment variables to pass Azure Databricks workspace and cluster
 # information to the Databricks Connect configuration function.
