@@ -30,14 +30,14 @@ steps:
 
 # Use environment variables to pass Azure Databricks workspace and cluster
 # information to the Databricks Connect configuration function.
-- script: |
-    echo "y
-    $(DATABRICKS_ADDRESS)
-    $(DATABRICKS_API_TOKEN)
-    $(DATABRICKS_CLUSTER_ID)
-    $(DATABRICKS_ORG_ID)
-    $(DATABRICKS_PORT)" | databricks-connect configure
-  displayName: 'Configure Databricks Connect'
+# - script: |
+#     echo "y
+#     $(DATABRICKS_ADDRESS)
+#     $(DATABRICKS_API_TOKEN)
+#     $(DATABRICKS_CLUSTER_ID)
+#     $(DATABRICKS_ORG_ID)
+#     $(DATABRICKS_PORT)" | databricks-connect configure
+#   displayName: 'Configure Databricks Connect'
 
 # # Download the files from the designated branch in the Git remote repository
 # # onto the build agent.
