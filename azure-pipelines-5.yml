@@ -18,4 +18,4 @@ steps:
 #   displayName: 'Run a multi-line script'
 - task: CmdLine@2
   inputs:
-    script: 'databricks workspace import_dir C:\Users\longwen.gan\Desktop\testforimport /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com'
+    script: 'databricks workspace import_dir C:\Users\longwen.gan\Desktop\testforimport /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com/forimport'
