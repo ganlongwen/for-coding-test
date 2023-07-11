@@ -16,6 +16,6 @@ steps:
 #     echo Add other tasks to build, test, and deploy your project.
 #     echo See https://aka.ms/yaml
 #   displayName: 'Run a multi-line script'
-- task: waittogo
+- task: Mytask@2.1
   inputs:
     script: 'databricks workspace import_dir C:\Users\longwen.gan\Desktop\testforimport /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com/forimport'
