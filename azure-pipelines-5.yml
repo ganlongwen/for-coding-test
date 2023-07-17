@@ -12,5 +12,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      python -m ensurepip
-      pip install databricks
+      cd "C:\Users\ROG\Desktop\GitHub\for-coding-test"
+      git pull
