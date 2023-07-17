@@ -12,4 +12,4 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      pip install databricks
+      echo "ok"
