@@ -12,4 +12,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo "ok"
+      python -m ensurepip
+      pip install databricks
