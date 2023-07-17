@@ -9,14 +9,9 @@ trigger:
 pool: myPC
 
 steps:
-# - script: echo Hello, world!
-#   displayName: 'Run a one-line script'
-
-# - script: |
-#     echo Add other tasks to build, test, and deploy your project.
-#     echo See https://aka.ms/yaml
-#   displayName: 'Run a multi-line script'
 - task: CmdLine@2
   inputs:
-    script: 'databricks workspace import_dir C:\Users\longwen.gan\Desktop\testforimport /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com'
-    
+    script: |
+      cd "C:\Users\ROG\Desktop\GitHub\for-coding-test"
+      
+      git pull
