@@ -12,4 +12,4 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      cd "C:\Users\ROG\Desktop\GitHub\for-coding-test"
+      pip install databricks
