@@ -13,5 +13,3 @@ steps:
   inputs:
     script: |
       cd "C:\Users\ROG\Desktop\GitHub\for-coding-test"
-      
-      git pull
