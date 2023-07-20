@@ -1,1 +1,1 @@
-databricks workspace import_dir C:\Users\ROG\Desktop\GitHub\for-coding-test /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com/forimport
+databricks workspace import_dir --overwrite C:\Users\ROG\Desktop\GitHub\for-coding-test /Users/ganlongwen717_hotmail.com#ext#@ganlongwen717hotmail.onmicrosoft.com/forimport
