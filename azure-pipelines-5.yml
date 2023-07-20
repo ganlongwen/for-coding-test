@@ -13,4 +13,5 @@ steps:
   inputs:
     script: |
       cd "C:\Users\ROG\Desktop\GitHub\for-coding-test"
+      git checkout master
       git pull
